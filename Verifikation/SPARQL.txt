@@ -1,0 +1,22 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fdm: <http://www.semanticweb.org/thilohauer/ontologies/2024/9/untitled-ontology-34#>
+
+SELECT (STR(?Projekt) AS ?ProjektName)
+       (MAX(STR(?rg1)) AS ?Planung)
+       (MAX(STR(?rg2)) AS ?Erhebung)
+       (MAX(STR(?rg3)) AS ?Analyse_Synthese)
+       (MAX(STR(?rg4)) AS ?Archivierung)
+       (MAX(STR(?rg5)) AS ?Zugang)
+WHERE {
+  ?proj rdf:type fdm:Forschungsprojekt .
+  ?proj rdfs:label ?Projekt .
+
+  OPTIONAL { ?proj fdm:erzieltReifegrad ?r1 . ?r1 rdf:type fdm:Planung_Reifegrad1 . ?r1 fdm:ReifegradWert ?rg1 . }
+  OPTIONAL { ?proj fdm:erzieltReifegrad ?r2 . ?r2 rdf:type fdm:Erhebung_Reifegrad1 . ?r2 fdm:ReifegradWert ?rg2 . }
+  OPTIONAL { ?proj fdm:erzieltReifegrad ?r3 . ?r3 rdf:type fdm:Analyse_Reifegrad1 . ?r3 fdm:ReifegradWert ?rg3 . }
+  OPTIONAL { ?proj fdm:erzieltReifegrad ?r4 . ?r4 rdf:type fdm:Archivierung_Reifegrad1 . ?r4 fdm:ReifegradWert ?rg4 . }
+  OPTIONAL { ?proj fdm:erzieltReifegrad ?r5 . ?r5 rdf:type fdm:Zugang_Reifegrad1 . ?r5 fdm:ReifegradWert ?rg5 . }
+}
+GROUP BY ?Projekt
+ORDER BY ?Projekt
