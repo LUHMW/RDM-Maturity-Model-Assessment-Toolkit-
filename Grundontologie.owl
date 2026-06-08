@@ -1,0 +1,704 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/thilohauer/ontologies/2024/9/untitled-ontology-34"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/thilohauer/ontologies/2024/9/untitled-ontology-34">
+    <Prefix name="" IRI="http://www.semanticweb.org/thilohauer/ontologies/2024/9/untitled-ontology-34/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-34" IRI="http://www.semanticweb.org/thilohauer/ontologies/2024/9/untitled-ontology-34#"/>
+    <Declaration>
+        <Class IRI="#Analyse_Synthese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analyse_Synthese_Reifegrad1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analyse_Synthese_Reifegrad2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analyse_Synthese_Reifegrad3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analyse_Synthese_Reifegrad4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analyse_Synthese_Reifegrad5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archivierung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archivierung_Reifegrad1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archivierung_Reifegrad2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archivierung_Reifegrad3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archivierung_Reifegrad4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archivierung_Reifegrad5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erhebung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erhebung_Reifegrad1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erhebung_Reifegrad2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erhebung_Reifegrad3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erhebung_Reifegrad4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erhebung_Reifegrad5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forschungsprojekt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methodisches_Ziel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planung_Reifegrad1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planung_Reifegrad2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planung_Reifegrad3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planung_Reifegrad4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planung_Reifegrad5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Praktik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prozessbereich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reifegradmodell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technisches_Ziel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ziel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zugang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zugang_Reifegrad1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zugang_Reifegrad2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zugang_Reifegrad3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zugang_Reifegrad4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zugang_Reifegrad5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#charakterisiertDurch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#einflussAuf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#erfülltDurch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#erfülltZiel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#erreicht"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#erreichtDurch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#erzieltReifegrad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wendenPraktikAn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ReifegradWert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyse_Synthese_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad1_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad2_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad3_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad4_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad5_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Archivierung_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Archivierung_Reifegrad1_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Archivierung_Reifegrad2_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Archivierung_Reifegrad3_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Archivierung_Reifegrad4_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Archivierung_Reifegrad5_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erhebung_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erhebung_Reifegrad1_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erhebung_Reifegrad2_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erhebung_Reifegrad3_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erhebung_Reifegrad4_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erhebung_Reifegrad5_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planung_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planung_Reifegrad1_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planung_Reifegrad2_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planung_Reifegrad3_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planung_Reifegrad4_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planung_Reifegrad5_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zugang_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zugang_Reifegrad1_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zugang_Reifegrad2_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zugang_Reifegrad3_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zugang_Reifegrad4_Indiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zugang_Reifegrad5_Indiv"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Analyse_Synthese"/>
+        <Class IRI="#Prozessbereich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analyse_Synthese_Reifegrad1"/>
+        <Class IRI="#Reifegradmodell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analyse_Synthese_Reifegrad2"/>
+        <Class IRI="#Analyse_Synthese_Reifegrad1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analyse_Synthese_Reifegrad3"/>
+        <Class IRI="#Analyse_Synthese_Reifegrad2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analyse_Synthese_Reifegrad4"/>
+        <Class IRI="#Analyse_Synthese_Reifegrad3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analyse_Synthese_Reifegrad5"/>
+        <Class IRI="#Analyse_Synthese_Reifegrad4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archivierung"/>
+        <Class IRI="#Prozessbereich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archivierung_Reifegrad1"/>
+        <Class IRI="#Reifegradmodell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archivierung_Reifegrad2"/>
+        <Class IRI="#Archivierung_Reifegrad1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archivierung_Reifegrad3"/>
+        <Class IRI="#Archivierung_Reifegrad2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archivierung_Reifegrad4"/>
+        <Class IRI="#Archivierung_Reifegrad3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archivierung_Reifegrad5"/>
+        <Class IRI="#Archivierung_Reifegrad4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erhebung"/>
+        <Class IRI="#Prozessbereich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erhebung_Reifegrad1"/>
+        <Class IRI="#Reifegradmodell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erhebung_Reifegrad2"/>
+        <Class IRI="#Erhebung_Reifegrad1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erhebung_Reifegrad3"/>
+        <Class IRI="#Erhebung_Reifegrad2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erhebung_Reifegrad4"/>
+        <Class IRI="#Erhebung_Reifegrad3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erhebung_Reifegrad5"/>
+        <Class IRI="#Erhebung_Reifegrad4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methodisches_Ziel"/>
+        <Class IRI="#Ziel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planung"/>
+        <Class IRI="#Prozessbereich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planung_Reifegrad1"/>
+        <Class IRI="#Reifegradmodell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planung_Reifegrad2"/>
+        <Class IRI="#Planung_Reifegrad1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planung_Reifegrad3"/>
+        <Class IRI="#Planung_Reifegrad2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planung_Reifegrad4"/>
+        <Class IRI="#Planung_Reifegrad3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planung_Reifegrad5"/>
+        <Class IRI="#Planung_Reifegrad4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technisches_Ziel"/>
+        <Class IRI="#Ziel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zugang"/>
+        <Class IRI="#Prozessbereich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zugang_Reifegrad1"/>
+        <Class IRI="#Reifegradmodell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zugang_Reifegrad2"/>
+        <Class IRI="#Zugang_Reifegrad1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zugang_Reifegrad3"/>
+        <Class IRI="#Zugang_Reifegrad2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zugang_Reifegrad4"/>
+        <Class IRI="#Zugang_Reifegrad3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zugang_Reifegrad5"/>
+        <Class IRI="#Zugang_Reifegrad4"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Analyse_Synthese"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analyse_Synthese_Reifegrad1"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad1_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analyse_Synthese_Reifegrad2"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad2_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analyse_Synthese_Reifegrad3"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad3_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analyse_Synthese_Reifegrad4"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad4_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analyse_Synthese_Reifegrad5"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad5_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archivierung"/>
+        <NamedIndividual IRI="#Archivierung_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archivierung_Reifegrad1"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad1_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archivierung_Reifegrad2"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad2_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archivierung_Reifegrad3"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad3_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archivierung_Reifegrad4"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad4_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archivierung_Reifegrad5"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad5_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Erhebung"/>
+        <NamedIndividual IRI="#Erhebung_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Erhebung_Reifegrad1"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad1_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Erhebung_Reifegrad2"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad2_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Erhebung_Reifegrad3"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad3_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Erhebung_Reifegrad4"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad4_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Erhebung_Reifegrad5"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad5_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planung"/>
+        <NamedIndividual IRI="#Planung_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planung_Reifegrad1"/>
+        <NamedIndividual IRI="#Planung_Reifegrad1_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planung_Reifegrad2"/>
+        <NamedIndividual IRI="#Planung_Reifegrad2_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planung_Reifegrad3"/>
+        <NamedIndividual IRI="#Planung_Reifegrad3_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planung_Reifegrad4"/>
+        <NamedIndividual IRI="#Planung_Reifegrad4_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planung_Reifegrad5"/>
+        <NamedIndividual IRI="#Planung_Reifegrad5_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zugang"/>
+        <NamedIndividual IRI="#Zugang_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zugang_Reifegrad1"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad1_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zugang_Reifegrad2"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad2_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zugang_Reifegrad3"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad3_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zugang_Reifegrad4"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad4_Indiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zugang_Reifegrad5"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad5_Indiv"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad1_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad2_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad3_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad4_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Analyse_Synthese_Reifegrad5_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad1_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad2_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad3_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad4_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Archivierung_Reifegrad5_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad1_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad2_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad3_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad4_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Erhebung_Reifegrad5_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Planung_Reifegrad1_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Planung_Reifegrad2_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Planung_Reifegrad3_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Planung_Reifegrad4_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Planung_Reifegrad5_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad1_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad2_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad3_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad4_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ReifegradWert"/>
+        <NamedIndividual IRI="#Zugang_Reifegrad5_Indiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#charakterisiertDurch"/>
+        <ObjectProperty IRI="#einflussAuf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#erreicht"/>
+        <ObjectProperty IRI="#erreichtDurch"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#charakterisiertDurch"/>
+        <Class IRI="#Prozessbereich"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#einflussAuf"/>
+        <Class IRI="#Ziel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#erfülltDurch"/>
+        <Class IRI="#Reifegradmodell"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#erfülltZiel"/>
+        <Class IRI="#Forschungsprojekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#erreicht"/>
+        <Class IRI="#Praktik"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#erreichtDurch"/>
+        <Class IRI="#Ziel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#erzieltReifegrad"/>
+        <Class IRI="#Forschungsprojekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wendenPraktikAn"/>
+        <Class IRI="#Forschungsprojekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#charakterisiertDurch"/>
+        <Class IRI="#Ziel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#einflussAuf"/>
+        <Class IRI="#Prozessbereich"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#erfülltDurch"/>
+        <Class IRI="#Ziel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#erfülltZiel"/>
+        <Class IRI="#Ziel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#erreicht"/>
+        <Class IRI="#Ziel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#erreichtDurch"/>
+        <Class IRI="#Praktik"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#erzieltReifegrad"/>
+        <Class IRI="#Reifegradmodell"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wendenPraktikAn"/>
+        <Class IRI="#Praktik"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ReifegradWert"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ReifegradWert"/>
+        <Class IRI="#Reifegradmodell"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ReifegradWert"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
