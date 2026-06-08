@@ -11,6 +11,7 @@ areas: **Planning, Collection, Analysis & Synthesis, Archiving, and Access**.
 ---
 
 ## Maturity Model
+`Gesamt_RGM_Ziel_Praktik_Nominalform.xlsx`
 
 The model defines five maturity levels per process area, each characterized by
 specific goals and practices. The full model is documented in a structured Excel
@@ -19,18 +20,21 @@ levels. It serves as the conceptual foundation for both the self-assessment tool
 and the ontology.
 
 ## Self-Assessment Tool
+`Mappe_Initial_Blank.xlsm`
 
 An Excel-based tool that allows research projects to assess their current FDM
 maturity level across all process areas. Users document which practices are
 applied and derive their maturity level per process area.
 
 ## Ontology
+`Grundontologie.owl`
 
 The maturity model is formally represented as an OWL ontology. SWRL rules encode
 the cumulative maturity logic: a project reaches a maturity level if and only if
 all practices of that level and all preceding levels are fulfilled.
 
 ## Python Script
+`Instanziierungmain.py`
 
 Python scripts automate the generation of project-specific OWL ontology instances
 and the merging of multiple project ontologies into a single knowledge base.
