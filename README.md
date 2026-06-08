@@ -5,7 +5,7 @@ RDM maturity model for research data management. Includes Excel-based assessment
 # RDM Maturity Model — Research Data Management
 
 This repository provides a comprehensive framework for assessing and verifying
-the maturity of research data management (FDM) practices across five process
+the maturity of research data management (RDM) practices across five process
 areas: **Planning, Collection, Analysis & Synthesis, Archiving, and Access**.
 
 ---
@@ -22,7 +22,7 @@ and the ontology.
 ## Self-Assessment Tool
 `Mappe_Initial_Blank.xlsm`
 
-An Excel-based tool that allows research projects to assess their current FDM
+An Excel-based tool that allows research projects to assess their current RDM
 maturity level across all process areas. Users document which practices are
 applied and derive their maturity level per process area.
 
