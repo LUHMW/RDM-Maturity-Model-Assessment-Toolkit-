@@ -37,7 +37,7 @@ all practices of that level and all preceding levels are fulfilled.
 `Instanziierungmain.py`
 
 Python scripts automate the generation of project-specific OWL ontology instances
-and the merging of multiple project ontologies into a single knowledge base.
+and SWRL based rule implementation
 
  
 ### Verification Files
