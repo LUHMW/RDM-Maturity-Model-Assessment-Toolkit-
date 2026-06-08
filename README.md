@@ -33,6 +33,28 @@ The maturity model is formally represented as an OWL ontology. SWRL rules encode
 the cumulative maturity logic: a project reaches a maturity level if and only if
 all practices of that level and all preceding levels are fulfilled.
 
+| Class | Description |
+|---|---|
+| `Forschungsprojekt` | Represents a research project as the primary unit of assessment |
+| `Prozessbereich` | Abstract superclass for the five RDM process areas |
+| `Reifegradmodell` | Abstract superclass for all maturity levels per process area |
+| `Praktik` | Data management practice applied within a research project |
+| `Ziel` | Abstract superclass for methodological and technical goals |
+
+### Object Properties
+
+| Property | Domain | Range | Inverse |
+|---|---|---|---|
+| `charakterisiertDurch` | `Prozessbereich` | `Ziel` | `einflussAuf` |
+| `einflussAuf` | `Ziel` | `Prozessbereich` | `charakterisiertDurch` |
+| `erfülltDurch` | `Reifegradmodell` | `Ziel` | — |
+| `erfülltZiel` | `Forschungsprojekt` | `Ziel` | — |
+| `erreicht` | `Praktik` | `Ziel` | `erreichtDurch` |
+| `erreichtDurch` | `Ziel` | `Praktik` | `erreicht` |
+| `erzieltReifegrad` | `Forschungsprojekt` | `Reifegradmodell` | — |
+| `wendenPraktikAn` | `Forschungsprojekt` | `Praktik` | — |
+
+
 ## Python Script
 `Instanziierungmain.py`
 
